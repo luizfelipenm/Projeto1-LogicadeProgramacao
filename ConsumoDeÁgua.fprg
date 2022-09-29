@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Datashow"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-26 12:45:34 "/>
+        <attribute name="created" value="RGF0YXNob3c7TFVJWkZFTElQRTsyMDIyLTA5LTIxOyIwNTo0MTo0OCAiOzI3ODM="/>
+        <attribute name="edited" value="RGF0YXNob3c7TFVJWkZFTElQRTsyMDIyLTA5LTI2OyIxMjo0NTozNCAiOzI7Mjg5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="leituraAtual, leituraAnt, consumo" type="Integer" array="False" size=""/>
+            <declare name="valorApagar" type="Real" array="False" size=""/>
+            <declare name="chaveErro" type="String" array="False" size=""/>
+            <assign variable="chaveErro" expression="&quot;n&#227;o&quot;"/>
+            <output expression="&quot;Informar a leitura do m&#234;s anterior: &quot;" newline="True"/>
+            <input variable="leituraAnt"/>
+            <output expression="&quot;Informar m&#234;s atual: &quot;" newline="True"/>
+            <input variable="leituraAtual"/>
+            <if expression="leituraAtual &lt; leituraAnt">
+                <then>
+                    <output expression="&quot;Favor Informar a leitura corretamente: &quot;" newline="True"/>
+                    <assign variable="chaveErro" expression="&quot;sim&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="chaveErro = &quot;sim&quot;">
+                <then/>
+                <else>
+                    <assign variable="consumo" expression="leituraAtual - leituraAnt"/>
+                    <assign variable="valorApagar" expression="consumo * 3.00"/>
+                    <output expression="&quot;O valor da conta de &#225;gua &#233;: &quot; &amp; valorApagar" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

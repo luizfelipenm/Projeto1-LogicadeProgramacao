@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Datashow"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-21 05:32:18 "/>
+        <attribute name="created" value="RGF0YXNob3c7TFVJWkZFTElQRTsyMDIyLTA5LTIxOyIwNDozNToyOSAiOzI3ODQ="/>
+        <attribute name="edited" value="RGF0YXNob3c7TFVJWkZFTElQRTsyMDIyLTA5LTIxOyIwNTozMjoxOCAiOzE7Mjg4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area, base, altura" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe a base do tri&#226;ngulo ret&#226;ngulo: &quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Informe a altura do tri&#226;ngulo ret&#226;ngulo: &quot;" newline="True"/>
+            <input variable="altura"/>
+            <assign variable="area" expression="(base * altura) / 2"/>
+            <output expression="&quot;A base do tri&#226;ngulo informada &#233;: &quot; &amp; base" newline="True"/>
+            <output expression="&quot;A altura do tri&#226;ngulo informada &#233;: &quot; &amp; altura" newline="True"/>
+            <output expression="&quot;A area do tri&#226;ngulo ret&#226;ngulo calculada &#233;: &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
