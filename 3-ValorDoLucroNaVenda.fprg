@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anorluin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-30 09:40:35 "/>
+        <attribute name="created" value="YW5vcmx1aW47SE9NRTsyMDIyLTA5LTI4OzExOjAwOjUwIGFtOzI0OTQ="/>
+        <attribute name="edited" value="YW5vcmx1aW47SE9NRTsyMDIyLTA5LTI4OzExOjEzOjE0IGFtOzE7MjYwNg=="/>
+        <attribute name="edited" value="RGF0YXNob3c7TFVJWkZFTElQRTsyMDIyLTA5LTMwOyIwOTo0MDozNSAiOzM7Mjg5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PreCust, PreVend, EstoI, LucroUni, LucroEsto" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o pre&#231;o de custo do produto em R$: &quot;" newline="True"/>
+            <input variable="PreCust"/>
+            <output expression="&quot;Informe o pre&#231;o de venda do produto em R$: &quot;" newline="True"/>
+            <input variable="PreVend"/>
+            <output expression="&quot;Informe quantos produtos tem no estoque: &quot;" newline="True"/>
+            <input variable="EstoI"/>
+            <assign variable="LucroUni" expression="PreCust - PreVend"/>
+            <assign variable="LucroEsto" expression="( PreCust - PreVend ) * EstoI"/>
+            <output expression="&quot;O lucro por unidade &#233; de R$: &quot; &amp; LucroUni" newline="True"/>
+            <output expression="&quot;O lucro total &#233; de R$: &quot; &amp; LucroEsto" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

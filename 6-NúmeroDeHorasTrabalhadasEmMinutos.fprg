@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anorluin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-30 10:11:42 "/>
+        <attribute name="created" value="YW5vcmx1aW47SE9NRTsyMDIyLTA5LTI4OzExOjQzOjQ3IGFtOzI1MDc="/>
+        <attribute name="edited" value="YW5vcmx1aW47SE9NRTsyMDIyLTA5LTI4OzExOjUyOjQ0IGFtOzE7MjYxMg=="/>
+        <attribute name="edited" value="RGF0YXNob3c7TFVJWkZFTElQRTsyMDIyLTA5LTMwOyIxMDoxMTo0MiAiOzI7Mjg3OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="HrsTrab, TempMin" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe o n&#250;mero de horas trabalhadas: &quot;" newline="True"/>
+            <input variable="HrsTrab"/>
+            <assign variable="TempMin" expression="HrsTrab * 60"/>
+            <output expression="&quot;Os minutos totais trabalhados &#233; de: &quot; &amp; TempMin &amp; &quot; minutos.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

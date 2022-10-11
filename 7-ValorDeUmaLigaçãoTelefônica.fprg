@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anorluin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-30 10:22:43 "/>
+        <attribute name="created" value="YW5vcmx1aW47SE9NRTsyMDIyLTA5LTI4OzEyOjA2OjQ4IHBtOzI1MjM="/>
+        <attribute name="edited" value="YW5vcmx1aW47SE9NRTsyMDIyLTA5LTI4OzEyOjE4OjAxIHBtOzE7MjYyMw=="/>
+        <attribute name="edited" value="RGF0YXNob3c7TFVJWkZFTElQRTsyMDIyLTA5LTMwOyIxMDoyMjo0MyAiOzM7Mjg4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="TempLiga, TtLiga" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o tempo da sua liga&#231;&#227;o telef&#244;nica em segundos: &quot;" newline="True"/>
+            <input variable="TempLiga"/>
+            <assign variable="TtLiga" expression="TempLiga * 0.02"/>
+            <output expression="&quot;O custo total de sua liga&#231;&#227;o telef&#244;nica foi de R$: &quot; &amp; TtLiga" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

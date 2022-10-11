@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anorluin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-30 10:32:24 "/>
+        <attribute name="created" value="YW5vcmx1aW47SE9NRTsyMDIyLTA5LTI4OzEyOjM0OjUwIHBtOzI1MTc="/>
+        <attribute name="edited" value="YW5vcmx1aW47SE9NRTsyMDIyLTA5LTI4OzEyOjUwOjQ0IHBtOzE7MjYyNg=="/>
+        <attribute name="edited" value="RGF0YXNob3c7TFVJWkZFTElQRTsyMDIyLTA5LTMwOyIxMDozMjoyNCAiOzI7Mjg4Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ValorMerc, Imposto, ValorImpo" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o valor da mercadoria em R$: &quot;" newline="True"/>
+            <input variable="ValorMerc"/>
+            <assign variable="Imposto" expression="( ValorMerc * 12) / 100"/>
+            <assign variable="ValorImpo" expression="Imposto"/>
+            <output expression="&quot;O valor do imposto ICMS &#233; de : R$: &quot; &amp; ValorImpo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

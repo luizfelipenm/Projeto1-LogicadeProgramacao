@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anorluin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-30 10:28:31 "/>
+        <attribute name="created" value="YW5vcmx1aW47SE9NRTsyMDIyLTA5LTI4OzA5OjU3OjUzIGFtOzI1MTY="/>
+        <attribute name="edited" value="YW5vcmx1aW47SE9NRTsyMDIyLTA5LTI4OzEwOjIwOjQ3IGFtOzE7MjYwOQ=="/>
+        <attribute name="edited" value="RGF0YXNob3c7TFVJWkZFTElQRTsyMDIyLTA5LTMwOyIxMDoyODozMSAiOzI7Mjg4NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="AaTrab, Salario, Gratif, GratifT" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe o n&#250;mero de anos completos trabalhados: &quot;" newline="True"/>
+            <input variable="AaTrab"/>
+            <output expression="&quot;Informe o sal&#225;rio: &quot;" newline="True"/>
+            <input variable="Salario"/>
+            <assign variable="Gratif" expression="AaTrab * 1"/>
+            <assign variable="GratifT" expression="Gratif * Salario / 100"/>
+            <output expression="&quot;A gratifica&#231;&#227;o &#233; de R$: &quot; &amp; GratifT" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
