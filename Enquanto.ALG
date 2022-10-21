@@ -1,7 +1,7 @@
 Algoritmo "Contador"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Luiz Felipe N. Mota
 // Data atual  : 21/10/2022
 Var
@@ -13,7 +13,7 @@ Inicio
       contador <- 10
       Enquanto contador <= 200 faca
       
-      Escreval ("- O número é: ",  contador)
+      Escreval ("- O nÃºmero Ã©: ",  contador)
       contador <- contador + 2
       
    FimEnquanto
