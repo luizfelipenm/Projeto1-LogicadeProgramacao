@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="06728521100"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-21 09:43:03 "/>
+        <attribute name="created" value="MDY3Mjg1MjExMDA7TDA0MDAxMDE3MzYxOzIwMjItMTAtMjE7IjA5OjE4OjQ0ICI7MjM3OA=="/>
+        <attribute name="edited" value="MDY3Mjg1MjExMDA7TDA0MDAxMDE3MzYxOzIwMjItMTAtMjE7IjA5OjQzOjAzICI7MTsyNDc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <assign variable="contador" expression="10"/>
+            <while expression="contador &lt;=  200">
+                <output expression="&quot;O n&#250;mero &#233;:&quot; &amp; contador" newline="True"/>
+                <assign variable="contador" expression="contador + 2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
