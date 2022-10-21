@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="06728521100"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-21 10:00:58 "/>
+        <attribute name="created" value="MDY3Mjg1MjExMDA7TDA0MDAxMDE3MzYxOzIwMjItMTAtMjE7IjA5OjQzOjU4ICI7MjM4MQ=="/>
+        <attribute name="edited" value="MDY3Mjg1MjExMDA7TDA0MDAxMDE3MzYxOzIwMjItMTAtMjE7IjEwOjAwOjU4ICI7MTsyNDc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cont" type="Integer" array="False" size=""/>
+            <assign variable="cont" expression="10"/>
+            <do expression="cont &lt;= 200">
+                <output expression="&quot;o n&#250;mero &#233;: &quot; &amp; cont" newline="True"/>
+                <assign variable="cont" expression="cont + 2"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
